@@ -1,6 +1,9 @@
 using System;
 using System.IO;
+using System.Threading;
 using Vosk;
+using OpenTK.Audio;
+using OpenTK.Audio.OpenAL;
 
 public class VoskDemo
 {
